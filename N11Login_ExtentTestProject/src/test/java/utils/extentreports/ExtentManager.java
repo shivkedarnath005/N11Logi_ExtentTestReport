@@ -9,7 +9,7 @@ public class ExtentManager
 
     public synchronized static ExtentReports createExtentReports() 
     {
-        ExtentSparkReporter reporter = new ExtentSparkReporter("./extent-reports/extent-report.html");
+        ExtentSparkReporter reporter = new ExtentSparkReporter("./test-output/ExtentReport/MyReport.html");
         reporter.config().setReportName("Sample Extent Report");
         extentReports.attachReporter(reporter);
         extentReports.setSystemInfo("Host Name", "MyHost");
