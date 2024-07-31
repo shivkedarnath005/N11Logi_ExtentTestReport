@@ -2,24 +2,24 @@
 <testng-results retried="2" ignored="0" total="4" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-31T10:29:42 IST" name="N11 Test Suite" finished-at="2024-07-31T10:30:09 IST" duration-ms="27012">
+  <suite started-at="2024-07-31T10:35:09 IST" name="N11 Test Suite" finished-at="2024-07-31T10:35:34 IST" duration-ms="24378">
     <groups>
     </groups>
-    <test started-at="2024-07-31T10:29:42 IST" name="LoginTest" finished-at="2024-07-31T10:30:09 IST" duration-ms="27012">
+    <test started-at="2024-07-31T10:35:09 IST" name="LoginTest" finished-at="2024-07-31T10:35:34 IST" duration-ms="24378">
       <class name="tests.LoginTests">
-        <test-method is-config="true" signature="setupProxy()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:42 IST" name="setupProxy" finished-at="2024-07-31T10:29:42 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setupProxy()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:09 IST" name="setupProxy" finished-at="2024-07-31T10:35:09 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupProxy -->
-        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:42 IST" name="classLevelSetup" finished-at="2024-07-31T10:29:47 IST" duration-ms="4761" status="PASS">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:10 IST" name="classLevelSetup" finished-at="2024-07-31T10:35:14 IST" duration-ms="3987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classLevelSetup -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:47 IST" name="methodLevelSetup" finished-at="2024-07-31T10:29:47 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:14 IST" name="methodLevelSetup" finished-at="2024-07-31T10:35:14 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method retried="true" signature="invalidLoginTest_InvalidUserNameInvalidPassword(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:47 IST" name="invalidLoginTest_InvalidUserNameInvalidPassword" description="Invalid Login Scenario with wrong username and password." finished-at="2024-07-31T10:29:53 IST" duration-ms="5776" status="SKIP">
+        <test-method retried="true" signature="invalidLoginTest_InvalidUserNameInvalidPassword(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:14 IST" name="invalidLoginTest_InvalidUserNameInvalidPassword" description="Invalid Login Scenario with wrong username and password." finished-at="2024-07-31T10:35:19 IST" duration-ms="5707" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:53 IST" name="methodLevelSetup" finished-at="2024-07-31T10:29:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:20 IST" name="methodLevelSetup" finished-at="2024-07-31T10:35:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="invalidLoginTest_InvalidUserNameInvalidPassword(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:53 IST" name="invalidLoginTest_InvalidUserNameInvalidPassword" description="Invalid Login Scenario with wrong username and password." finished-at="2024-07-31T10:29:58 IST" duration-ms="5346" status="FAIL">
+        <test-method signature="invalidLoginTest_InvalidUserNameInvalidPassword(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:20 IST" name="invalidLoginTest_InvalidUserNameInvalidPassword" description="Invalid Login Scenario with wrong username and password." finished-at="2024-07-31T10:35:25 IST" duration-ms="5080" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -127,11 +127,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:59 IST" name="methodLevelSetup" finished-at="2024-07-31T10:29:59 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:25 IST" name="methodLevelSetup" finished-at="2024-07-31T10:35:25 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method retried="true" signature="invalidLoginTest_EmptyUserEmptyPassword(java.lang.reflect.Method)[pri:1, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:29:59 IST" name="invalidLoginTest_EmptyUserEmptyPassword" description="Invalid Login Scenario with empty username and password." finished-at="2024-07-31T10:30:03 IST" duration-ms="4572" status="SKIP">
+        <test-method retried="true" signature="invalidLoginTest_EmptyUserEmptyPassword(java.lang.reflect.Method)[pri:1, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:25 IST" name="invalidLoginTest_EmptyUserEmptyPassword" description="Invalid Login Scenario with empty username and password." finished-at="2024-07-31T10:35:28 IST" duration-ms="3457" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -183,11 +183,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest_EmptyUserEmptyPassword -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:30:03 IST" name="methodLevelSetup" finished-at="2024-07-31T10:30:03 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:28 IST" name="methodLevelSetup" finished-at="2024-07-31T10:35:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="invalidLoginTest_EmptyUserEmptyPassword(java.lang.reflect.Method)[pri:1, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:30:03 IST" name="invalidLoginTest_EmptyUserEmptyPassword" description="Invalid Login Scenario with empty username and password." finished-at="2024-07-31T10:30:07 IST" duration-ms="3733" status="FAIL">
+        <test-method signature="invalidLoginTest_EmptyUserEmptyPassword(java.lang.reflect.Method)[pri:1, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:29 IST" name="invalidLoginTest_EmptyUserEmptyPassword" description="Invalid Login Scenario with empty username and password." finished-at="2024-07-31T10:35:32 IST" duration-ms="3086" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -239,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest_EmptyUserEmptyPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:30:07 IST" name="teardown" finished-at="2024-07-31T10:30:09 IST" duration-ms="1715" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@17f62e33]" started-at="2024-07-31T10:35:32 IST" name="teardown" finished-at="2024-07-31T10:35:34 IST" duration-ms="1859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
